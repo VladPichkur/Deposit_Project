@@ -1,0 +1,461 @@
+GET http://localhost:8080/api/v1/BankProject/deposit
+
+<> 2022-12-04T115930.200.json
+
+###
+
+POST http://localhost:8080/api/v1/BankProject/deposit
+Content-Type: application/json
+
+{
+  "name": "Депозит №100",
+  "bank": {"id": 3},
+  "sum_min": 100000,
+  "sum_max": 200000,
+  "termin": 12,
+  "interest_rate": 0.2
+}
+
+###
+
+POST http://localhost:8080/api/v1/BankProject/deposit
+Content-Type: application/json
+
+{
+  "name": "Депозит №4",
+  "bank": {"id": 2},
+  "sum_min": 90000,
+  "sum_max": 400000,
+  "termin": 12,
+  "interest_rate": 0.1
+}
+
+###
+
+POST http://localhost:8080/api/v1/BankProject/deposit
+Content-Type: application/json
+
+{
+  "name": "Депозит №3",
+  "bank": {"id": 1},
+  "sum_min": 100000,
+  "sum_max": 500000,
+  "nalog": 0.01,
+  "termin": 12,
+  "interest_rate": 0.2
+}
+
+###
+
+POST http://localhost:8080/api/v1/BankProject/deposit
+Content-Type: application/json
+
+{
+  "name": "Депозит №2",
+  "bank": {"id": 1},
+  "sum_min": 15000.0,
+  "sum_max": 80000.0,
+  "nalog": 0.01,
+  "termin": 12,
+  "interest_rate": 0.05
+}
+
+###
+
+POST http://localhost:8080/api/v1/BankProject/deposit
+Content-Type: application/json
+
+{
+  "name": "Депозит №1",
+  "bank": {"id": 1},
+  "sum_min": 20000.0,
+  "sum_max": 100000.0,
+  "nalog": 0.01,
+  "termin": 12,
+  "interest_rate": 0.1
+}
+
+###
+
+GET http://localhost:8080/api/v1/BankProject/deposit
+
+<> 2022-12-04T115921.200.json
+
+###
+
+GET http://localhost:8080/api/v1/BankProject/deposit
+
+<> 2022-12-04T115852.200.json
+
+###
+
+POST http://localhost:8080/api/v1/BankProject/deposit
+Content-Type: application/json
+
+{
+  "name": "Депозит №100",
+  "bank": {"id": 3},
+  "sum_min": 100000,
+  "sum_max": 200000,
+  "termin": 12,
+  "interest_rate": 0.2
+}
+
+###
+
+GET http://localhost:8080/api/v1/BankProject/deposit
+
+<> 2022-12-04T115726.200.json
+
+###
+
+POST http://localhost:8080/api/v1/BankProject/deposit
+Content-Type: application/json
+
+{
+  "name": "Депозит №5",
+  "bank": {"id": 3},
+  "sum_min": 100000,
+  "sum_max": 200000,
+  "termin": 12,
+  "interest_rate": 0.2
+}
+
+###
+
+POST http://localhost:8080/api/v1/BankProject/deposit
+Content-Type: application/json
+
+{
+  "name": "Депозит №4",
+  "bank": {"id": 2},
+  "sum_min": 90000,
+  "sum_max": 400000,
+  "termin": 12,
+  "interest_rate": 0.1
+}
+
+###
+
+POST http://localhost:8080/api/v1/BankProject/deposit
+Content-Type: application/json
+
+{
+  "name": "Депозит №3",
+  "bank": {"id": 1},
+  "sum_min": 100000,
+  "sum_max": 500000,
+  "nalog": 0.01,
+  "termin": 12,
+  "interest_rate": 0.2
+}
+
+###
+
+POST http://localhost:8080/api/v1/BankProject/deposit
+Content-Type: application/json
+
+{
+  "name": "Депозит №2",
+  "bank": {"id": 1},
+  "sum_min": 15000.0,
+  "sum_max": 80000.0,
+  "nalog": 0.01,
+  "termin": 12,
+  "interest_rate": 0.05
+}
+
+###
+
+POST http://localhost:8080/api/v1/BankProject/deposit
+Content-Type: application/json
+
+{
+  "name": "Депозит №1",
+  "bank": {"id": 1},
+  "sum_min": 20000.0,
+  "sum_max": 100000.0,
+  "nalog": 0.01,
+  "termin": 12,
+  "interest_rate": 0.1
+}
+
+###
+
+GET http://localhost:8080/api/v1/BankProject/bank
+
+<> 2022-12-04T115704.200.json
+
+###
+
+POST http://localhost:8080/api/v1/BankProject/contracts/previous?deposit=5&sum_contarct=180000&client=1
+Content-Type: application/json
+
+###
+
+POST http://localhost:8080/api/v1/BankProject/contracts/previous?deposit=2&sum_contarct=30000&client=1
+Content-Type: application/json
+
+###
+
+POST http://localhost:8080/api/v1/BankProject/contracts/previous?deposit=1&sum_contarct=50000&client=1
+Content-Type: application/json
+
+###
+
+POST http://localhost:8080/api/v1/BankProject/contracts?deposit=5&sum_contarct=150000&client=1
+Content-Type: application/json
+
+###
+
+POST http://localhost:8080/api/v1/BankProject/contracts?deposit=4&sum_contarct=100000&client=1
+Content-Type: application/json
+
+###
+
+POST http://localhost:8080/api/v1/BankProject/contracts?deposit=3&sum_contarct=200000&client=1
+Content-Type: application/json
+
+###
+
+POST http://localhost:8080/api/v1/BankProject/deposit
+Content-Type: application/json
+
+{
+  "name": "Депозит №5",
+  "bank": {"id": 3},
+  "sum_min": 100000,
+  "sum_max": 200000,
+  "termin": 12,
+  "interest_rate": 0.2
+}
+
+###
+
+POST http://localhost:8080/api/v1/BankProject/deposit
+Content-Type: application/json
+
+{
+  "name": "Депозит №4",
+  "bank": {"id": 2},
+  "sum_min": 90000,
+  "sum_max": 400000,
+  "termin": 12,
+  "interest_rate": 0.1
+}
+
+###
+
+POST http://localhost:8080/api/v1/BankProject/deposit
+Content-Type: application/json
+
+{
+  "name": "Депозит №3",
+  "bank": {"id": 1},
+  "sum_min": 100000,
+  "sum_max": 500000,
+  "nalog": 0.01,
+  "termin": 12,
+  "interest_rate": 0.2
+}
+
+###
+
+POST http://localhost:8080/api/v1/BankProject/deposit
+Content-Type: application/json
+
+{
+  "name": "Депозит №2",
+  "bank": {"id": 1},
+  "sum_min": 15000.0,
+  "sum_max": 80000.0,
+  "nalog": 0.01,
+  "termin": 12,
+  "interest_rate": 0.05
+}
+
+###
+
+POST http://localhost:8080/api/v1/BankProject/deposit
+Content-Type: application/json
+
+{
+  "name": "Депозит №1",
+  "bank": {"id": 1},
+  "sum_min": 20000.0,
+  "sum_max": 100000.0,
+  "nalog": 0.01,
+  "termin": 12,
+  "interest_rate": 0.1
+}
+
+###
+
+POST http://localhost:8080/api/v1/BankProject/contracts/previous?deposit=5&sum_contarct=180000&client=1
+Content-Type: application/json
+
+###
+
+POST http://localhost:8080/api/v1/BankProject/contracts/previous?deposit=2&sum_contarct=30000&client=1
+Content-Type: application/json
+
+###
+
+POST http://localhost:8080/api/v1/BankProject/contracts/previous?deposit=1&sum_contarct=50000&client=1
+Content-Type: application/json
+
+###
+
+POST http://localhost:8080/api/v1/BankProject/contracts?deposit=5&sum_contarct=150000&client=1
+Content-Type: application/json
+
+###
+
+POST http://localhost:8080/api/v1/BankProject/contracts?deposit=4&sum_contarct=100000&client=1
+Content-Type: application/json
+
+###
+
+POST http://localhost:8080/api/v1/BankProject/contracts?deposit=3&sum_contarct=200000&client=1
+Content-Type: application/json
+
+###
+
+POST http://localhost:8080/api/v1/BankProject/deposit
+Content-Type: application/json
+
+{
+  "name": "Депозит №5",
+  "bank": {"id": 3},
+  "sum_min": 100000,
+  "sum_max": 200000,
+  "termin": 12,
+  "interest_rate": 0.2
+}
+
+###
+
+POST http://localhost:8080/api/v1/BankProject/deposit
+Content-Type: application/json
+
+{
+  "name": "Депозит №4",
+  "bank": {"id": 2},
+  "sum_min": 900000,
+  "sum_max": 400000,
+  "termin": 12,
+  "interest_rate": 0.1
+}
+
+###
+
+POST http://localhost:8080/api/v1/BankProject/deposit
+Content-Type: application/json
+
+{
+  "name": "Депозит №3",
+  "bank": {"id": 1},
+  "sum_min": 100000,
+  "sum_max": 500000,
+  "nalog": 0.01,
+  "termin": 12,
+  "interest_rate": 0.2
+}
+
+###
+
+POST http://localhost:8080/api/v1/BankProject/deposit
+Content-Type: application/json
+
+{
+  "name": "Депозит №2",
+  "bank": {"id": 1},
+  "sum_min": 15000.0,
+  "sum_max": 80000.0,
+  "nalog": 0.01,
+  "termin": 12,
+  "interest_rate": 0.05
+}
+
+###
+
+POST http://localhost:8080/api/v1/BankProject/deposit
+Content-Type: application/json
+
+{
+  "name": "Депозит №1",
+  "bank": {"id": 1},
+  "sum_min": 20000.0,
+  "sum_max": 100000.0,
+  "nalog": 0.01,
+  "termin": 12,
+  "interest_rate": 0.1
+}
+
+###
+
+GET http://localhost:8080/api/v1/BankProject/contracts
+
+<> 2022-12-03T114218.200.json
+
+###
+
+PUT http://localhost:8080/api/v1/BankProject/contracts/Popovnutu/5?sum=20000
+Content-Type: application/json
+
+###
+
+GET http://localhost:8080/api/v1/BankProject/contracts
+
+<> 2022-12-03T114014.200.json
+
+###
+
+PUT http://localhost:8080/api/v1/BankProject/contracts/Dostrokove/6
+Content-Type: application/json
+
+###
+
+GET http://localhost:8080/api/v1/BankProject/contracts
+
+<> 2022-12-03T113920.200.json
+
+###
+
+GET http://localhost:8080/api/v1/BankProject/contracts
+
+<> 2022-12-03T113641.200.json
+
+###
+
+PUT http://localhost:8080/api/v1/BankProject/contracts/4
+Content-Type: application/json
+
+###
+
+GET http://localhost:8080/api/v1/BankProject/contracts
+
+<> 2022-12-03T113601.200.json
+
+###
+
+POST http://localhost:8080/api/v1/BankProject/contracts/previous?deposit=5&sum_contarct=180000&client=1
+Content-Type: application/json
+
+###
+
+POST http://localhost:8080/api/v1/BankProject/contracts/previous?deposit=2&sum_contarct=30000&client=1
+Content-Type: application/json
+
+###
+
+POST http://localhost:8080/api/v1/BankProject/contracts/previous?deposit=1&sum_contarct=50000&client=1
+Content-Type: application/json
+
+###
+
+POST http://localhost:8080/api/v1/BankProject/contracts?deposit=5&sum_contarct=150000&client=1
+Content-Type: application/json
+
+###
+

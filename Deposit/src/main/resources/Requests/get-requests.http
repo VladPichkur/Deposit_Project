@@ -1,0 +1,14 @@
+###
+GET http://localhost:8080/api/v1/BankProject/contracts
+###
+GET http://localhost:8080/api/v1/BankProject/bank
+###
+GET http://localhost:8080/api/v1/BankProject/deposit
+###
+GET http://localhost:8080/api/v1/BankProject/client
+###
+GET http://localhost:8080/api/v1/BankProject/contracts/Sum_more_than?sum=30000
+###
+GET http://localhost:8080/api/v1/BankProject/contracts/Sum_less_than?sum=100000
+###
+GET http://localhost:8080/api/v1/BankProject/contracts/poshyk?sum=50000

@@ -1,0 +1,9 @@
+###
+PUT http://localhost:8080/api/v1/BankProject/contracts/4
+Content-Type: application/json
+###
+PUT http://localhost:8080/api/v1/BankProject/contracts/Dostrokove/6
+Content-Type: application/json
+###
+PUT http://localhost:8080/api/v1/BankProject/contracts/Popovnutu/5?sum=20000
+Content-Type: application/json

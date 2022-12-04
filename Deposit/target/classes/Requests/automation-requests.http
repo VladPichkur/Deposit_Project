@@ -1,0 +1,79 @@
+###
+POST http://localhost:8080/api/v1/BankProject/bank
+Content-Type: application/json
+
+{
+  "name": "Los Pollos Hermanos"
+}
+###
+POST http://localhost:8080/api/v1/BankProject/bank
+Content-Type: application/json
+
+{
+  "name": "Приват банк"
+}
+###
+POST http://localhost:8080/api/v1/BankProject/bank
+Content-Type: application/json
+
+{
+  "name": "Albuquerque Bank"
+}
+###
+POST http://localhost:8080/api/v1/BankProject/deposit
+Content-Type: application/json
+
+{
+  "name": "Депозит №1",
+  "bank": {"id": 1},
+  "sum_min": 20000.0,
+  "sum_max": 100000.0,
+  "nalog": 0.01,
+  "termin": 12,
+  "interest_rate": 0.1
+}
+###
+POST http://localhost:8080/api/v1/BankProject/deposit
+Content-Type: application/json
+
+{
+  "name": "Депозит №2",
+  "bank": {"id": 1},
+  "sum_min": 15000.0,
+  "sum_max": 80000.0,
+  "nalog": 0.01,
+  "termin": 12,
+  "interest_rate": 0.05
+}
+###
+POST http://localhost:8080/api/v1/BankProject/deposit
+Content-Type: application/json
+
+{
+  "name": "Депозит №3",
+  "bank": {"id": 1},
+  "sum_min": 100000,
+  "sum_max": 500000,
+  "nalog": 0.01,
+  "termin": 12,
+  "interest_rate": 0.2
+}
+###
+POST http://localhost:8080/api/v1/BankProject/client
+Content-Type: application/json
+
+{
+  "name": "Walter White"
+}
+###
+POST http://localhost:8080/api/v1/BankProject/contracts?deposit=3&sum_contarct=200000&client=1
+Content-Type: application/json
+
+###
+GET http://localhost:8080/api/v1/BankProject/contracts
+###
+GET http://localhost:8080/api/v1/BankProject/bank
+###
+GET http://localhost:8080/api/v1/BankProject/deposit
+###
+GET http://localhost:8080/api/v1/BankProject/client

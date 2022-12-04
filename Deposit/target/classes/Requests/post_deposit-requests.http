@@ -1,0 +1,63 @@
+###
+POST http://localhost:8080/api/v1/BankProject/deposit
+Content-Type: application/json
+
+{
+  "name": "Депозит №1",
+  "bank": {"id": 1},
+  "sum_min": 20000.0,
+  "sum_max": 100000.0,
+  "nalog": 0.01,
+  "termin": 12,
+  "interest_rate": 0.1
+}
+###
+POST http://localhost:8080/api/v1/BankProject/deposit
+Content-Type: application/json
+
+{
+  "name": "Депозит №2",
+  "bank": {"id": 1},
+  "sum_min": 15000.0,
+  "sum_max": 80000.0,
+  "nalog": 0.01,
+  "termin": 12,
+  "interest_rate": 0.05
+}
+###
+POST http://localhost:8080/api/v1/BankProject/deposit
+Content-Type: application/json
+
+{
+  "name": "Депозит №3",
+  "bank": {"id": 1},
+  "sum_min": 100000,
+  "sum_max": 500000,
+  "nalog": 0.01,
+  "termin": 12,
+  "interest_rate": 0.2
+}
+###
+POST http://localhost:8080/api/v1/BankProject/deposit
+Content-Type: application/json
+
+{
+  "name": "Депозит №4",
+  "bank": {"id": 2},
+  "sum_min": 90000,
+  "sum_max": 400000,
+  "termin": 12,
+  "interest_rate": 0.1
+}
+###
+POST http://localhost:8080/api/v1/BankProject/deposit
+Content-Type: application/json
+
+{
+  "name": "Депозит №100",
+  "bank": {"id": 3},
+  "sum_min": 100000,
+  "sum_max": 200000,
+  "termin": 12,
+  "interest_rate": 0.2
+}

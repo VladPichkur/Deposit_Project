@@ -89,8 +89,8 @@ public class Contract_Service {
         }
         contract_repository.getReferenceById(contractID).getClient().setBalance(
                 (1- contract_repository.getReferenceById(contractID).getDeposit_condition().getNalog())*
-                        contract_repository.getReferenceById(contractID).getClient().getBalance()+
-                        contract_repository.getReferenceById(contractID).getSum_contract_dostrokove());
+                        contract_repository.getReferenceById(contractID).getSum_contract_dostrokove()+
+                        contract_repository.getReferenceById(contractID).getClient().getBalance());
         contract_repository.getReferenceById(contractID).setSum_contract(0.0);
         contract_repository.deleteById(contractID);
 

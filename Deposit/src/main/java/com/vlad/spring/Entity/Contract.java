@@ -70,7 +70,11 @@ public class Contract {
     }
 
     public Double getSum_contract_dostrokove() {
-     return sum_contract+sum_contract*deposit_condition.getInterest_rate()*(Period.between(termin_pochatok,LocalDate.now()).getMonths()/deposit_condition.getTermin());
+        int period = Period.between(termin_pochatok,LocalDate.now()).getMonths();
+        Double x = period*deposit_condition.getInterest_rate()/deposit_condition.getTermin();
+        Double x1 = x*sum_contract;
+        Double x2 = sum_contract+x1;
+        return x2;
 
     }
     public Double getSum_contract_povne() {

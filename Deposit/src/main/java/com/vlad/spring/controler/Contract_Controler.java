@@ -54,7 +54,7 @@ public class Contract_Controler {
             @RequestParam() Long client
 
     ){
-        contract_service.addContract1(deposit,sum_contarct,client, LocalDate.of(2021,03,02));
+        contract_service.addContract1(deposit,sum_contarct,client, LocalDate.of(2022,03,02));
     }
     @PutMapping(path = "{contractID}")
     public void Znyatya(

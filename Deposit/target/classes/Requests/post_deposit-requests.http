@@ -54,7 +54,7 @@ POST http://localhost:8080/api/v1/BankProject/deposit
 Content-Type: application/json
 
 {
-  "name": "Депозит №100",
+  "name": "Депозит №5",
   "bank": {"id": 3},
   "sum_min": 100000,
   "sum_max": 200000,
